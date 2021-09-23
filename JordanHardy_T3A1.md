@@ -15,7 +15,9 @@ As mentioned above, Git is the most popular source control tool; one key aspect 
 
 Once a feature has been completed, the developer will merge and push their code to the main/master branch.
 
-See appendix
+<a name="git"></a>
+
+<img src="images/git.png">
 
 
 https://homes.cs.washington.edu/~mernst/advice/version-control.html
