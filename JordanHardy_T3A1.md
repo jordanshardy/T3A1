@@ -18,8 +18,11 @@ See appendix
 
 
 https://homes.cs.washington.edu/~mernst/advice/version-control.html
+
 https://www.mathworks.com/help/simulink/source-control-in-simulink-project.html
+
 https://www.atlassian.com/git/tutorials/source-code-management
+
 https://homes.cs.washington.edu/~mernst/advice/version-control.html
 
 
@@ -47,7 +50,13 @@ Usability - Usability refers to the ease of which users can execute tasks within
  
 Maintainability - Maintainability refers to the methods by which a code is maintained and updated; maintainability is crucial to longevity. Although unlike hardware, software may not deteriorate physically, but given the purpose of most software applications it should evolve and meet ever changing requirements of the developing entity and the user. As time goes on, software will go through cycles of change to implement and update new and existing features. If code is not maintainable, a company or entity will have to commit huge resources into these changes. 
 
+https://codoid.com/the-basics-of-software-quality-attributes/#:~:text=Software%20Quality%20Attributes%20are%20features,%2C%20readability%2C%20extensibility%2C%20testability%2C
 
+https://www.softwaretestinghelp.com/what-are-the-quality-attributes/
+
+https://asq.org/quality-resources/software-quality
+
+https://www.softwaretestingmaterial.com/quality-attributes-in-software-architecture/
 
 ## Question 3
 Outline a standard high level structure for a MERN stack application and explain the components
@@ -75,13 +84,17 @@ The client side and the server side communicate through requests and responses b
 
 
 https://www.mongodb.com/mern-stack
+
 https://medium.com/codingthesmartway-com-blog/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-2-637f337e5d61
+
 https://www.geeksforgeeks.org/mern-stack/
 
 
 
+
 ## Question 4
-A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?
+
+*A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?*
 
 ##### Communication and planning
 
@@ -123,6 +136,14 @@ Choosing the right tech stack and having the skills to sell the different tech s
 
 Source control is helpful for managing a single users code, but necessary when it comes to managing a group project or code with multiple contributors. Source control allows a safe environment for each contributor to update and add code without conflicting edits. According to Bitbucket, before source control management, developers would edit text files directly and move them around to remote locations using FTP and or other protocols. Often, a developer would make edits and another developer would unknowingly save over their work, wiping out any changes. 
 
+
+https://www.synotive.com/blog/software-development-client-questionnaire
+
+https://www.webalive.com.au/designing-a-website/
+
+https://www.socialmediatoday.com/content/24-things-consider-when-designing-and-developing-website
+
+https://www.a2hosting.com/blog/build-successful-client-website/
 
 
 ## Question 5
@@ -167,6 +188,7 @@ For example, before the project started I didn't have a good grasp on the concep
 Another change I would make is the in the planning stage for project features. Before this project started I didn't have a clear detailed picture of the features I wanted to implement. I thought I knew what features would be nice to have, but didn't understand how realistic they were. When it came time to implement or build a feature, I felt overwhelmed by the task and settled with a very different final product.
 
 ## Question 7
+
 *Explain control flow, using an examples from the JavaScript programming language*
 
 
@@ -321,6 +343,15 @@ async function getUsers(url){
 
 ```
 The above code is a simple example of fetching data using an ```async``` function. You'll notice that the need for ```then``` and ```catch``` callbacks are not longer needed, making the code more efficient and maintainable. It also shortens the main block of code by setting varibales for ```response``` and ```data``` inside the function to then use and return the values. 
+
+
+https://medium.com/@rianna.cleary/control-flow-in-javascript-9c63d0c98bb9#:~:text=Control%20flow%20in%20JavaScript%20is,loops%2C%20conditionals%2C%20or%20functions.
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling
+
+https://learn.co/lessons/javascript-intro-to-flow-control
+
+https://www.techotopia.com/index.php/JavaScript_Flow_Control_and_Looping
 
 
 ## Question 8
@@ -625,10 +656,17 @@ console.log(sports)
 
 This prints ```4``` and ```['rugby', 'soccer', 'golf', 'AFL'] to the console
 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
+https://www.javascripttutorial.net/javascript-array/
+
+https://www.codingame.com/playgrounds/6181/javascript-arrays---tips-tricks-and-examples
+
+https://www.tutorialsteacher.com/javascript/javascript-array
 
 ## Question 11
-Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language
+
+*Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language*
 
 Objects are considered special or complex data types with direct properties and methods, Arrays in JavaScript are also technically objects, or a list of object properties.
 
@@ -762,9 +800,17 @@ console.log(combineObj)
 }
 ```
 
+https://www.w3schools.com/js/js_objects.asp
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
+
+https://www.javatpoint.com/javascript-objects
+
+https://www.javascripttutorial.net/javascript-objects/
 
 ## Question 12
-Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language
+
+*Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language*
 
 JSON stands for JavaScript Object Notation. "JSON is a text-based data-interchange format used to exchange data between a server and a client" (tutorial republic). The benefit to using JSON is that it follows basic document structure that is both easy to use and read by both humans and computers. Even though we'd expect JSON to only work with the object data type as represented by its name, JSON also works with Arrays as they are a special form of objects.
 
@@ -821,6 +867,15 @@ console.log(obj.available);
 The code above is passing a JSON string, ```car``` as a parameter to the ```JSON.parse()```. This allows the program access to the flat JSON string and return values in the string.
 
 This will print ```Toyota``` and ```true``` to the console.
+
+
+https://mossgreen.github.io/JSON-manipulation-with-javascript/
+
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
+
+https://www.tutorialrepublic.com/javascript-tutorial/javascript-json-parsing.php
+
+https://www.digitalocean.com/community/tutorials/how-to-work-with-json-in-javascript
 
 
 ## Question 13
