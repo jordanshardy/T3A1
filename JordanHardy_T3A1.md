@@ -75,11 +75,17 @@ React(.js) - a client-side JavaScript framework
 Node(.js) - the premier JavaScript web server
 
 MongoDB is a NoSQL database solution built on either MongoDB servers of hosted on third-party services. Unlike traditional relational databases where information is broken up into tables and stored as separate but related entities, Mongo uses a document model. MongoDB replaces relational database tables and rows with documents that have a similar structure to Javascript objects or JSON files and allows a developer to work objects and arrays while using a single record; the document model is also schema free.
+
 To understand Express.js we first need to understand node.js. Node.js is a cross-platform runtime environment for executing JavaScript code outside of the browser and is often used for back-end development, especially when working with API’s. Node.js is a popular runtime environment as it allows for fast and highly scalable services and apps, while following the principles of agile development. 
+
 Express.js is a web framework for Node.js. A web framework is a pre-structured simplified process to building web applications. Just like Rails, Express relies on built in methods to manage http requests and routing easily and quickly. Not only does Express help to simplify the code used for these requests, but also help organize the application into MVC architecture.
+
 React.js was developed by Facebook in 2011 and is one of the most popular JavaScript libraries. JavaScript libraries assist developers by creating pre-packed methods and code snippets mitigating the need to reuse the same code over and over thus speeding up development and simplifying code. React is a library built on components which are portions of the User Interface broken up into smaller reusable code. These components are part of a larger tree of components and can be used over and over to build complex web apps and detailed user interfaces. 
+
 These technologies interact with each other to create and display web apps and work on both the client side, and the server side. On the client side we use React to present data and information to the user including updating the user interface, validating user input and showing feedback to the user and everything else that the user sees on their screen. In traditional web apps the client or browser fetches a new HTML page for every click as the browser is updated but React uses Single-Page-Application development which updates the existing page; rendering new JavaScript in the UI when needed.
+
 The server side of a MERN stack application is where we use Node.js, Express and MongoDB to manage application logic that is hidden from the user/browser like authentication logic, or logic that is too large or heavy to run in the browser, as well as any data such as files or databases. Although MongoDB sits in a separate server from Node.js and Express, theses technologies are used to talk to the Mongo database and relay the information to the client.
+
 The client side and the server side communicate through requests and responses but because we build the front end as a single page application, when we send a request it is sent in the background which does not request a new HTML page and re-renders, but instead requests data to update and manipulate the existing HTML page with the help of JavaScript and React.
 
 
